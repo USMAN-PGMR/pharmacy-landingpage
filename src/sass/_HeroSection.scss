@@ -1,0 +1,96 @@
+/* HeroSection.scss */
+.hero-section {
+    background: url('https://png.pngtree.com/background/20230524/original/pngtree-some-blue-pills-and-capsules-laying-around-one-another-picture-image_2710878.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgb(54, 139, 20);
+    text-align: left;
+  
+    .welcome-text {
+      font-size: 1.2rem;
+      color: #7deb10;
+    }
+  
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+  
+    .hero-text {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+  
+    .hero-buttons a {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .play-button {
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .play-icon {
+      font-size: 3rem;
+      color: #080808;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s;
+    }
+  
+    .play-icon:hover {
+      color: #b0e57c;
+      background: rgba(0, 0, 0, 0.8);
+    }
+  } 
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-text {
+      font-size: 1rem;
+    }
+  
+    .play-button {
+      right: 5%;
+    }
+  } 
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.8rem;
+    }
+  
+    .hero-text {
+      font-size: 0.9rem;
+    }
+  
+    .hero-buttons a {
+      padding: 8px 16px;
+      font-size: 1rem;
+    }
+  } 
+  
+
+
+
+  // about section
+
+
+  .feature-icon {
+    font-size: 2rem; // Adjust size as needed
+  }
+  
