@@ -6,6 +6,8 @@ import Navbar from './components/Frontend/Navbar';
 import HeroSection from './components/Frontend/HeroSection';
 import About from './components/Frontend/About';
 import WhatOffer from './components/Frontend/WhatOffer/WhatOffer';
+import Promises from './components/Frontend/Promises/Promises';
+import Discount from './components/Frontend/Discount/Discount';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
    <HeroSection/>
    <About/>
    <WhatOffer/>
+   <Promises/>
+   <Discount/>
     </>
   );
 }
