@@ -1,0 +1,44 @@
+.contact-section {
+  // background-color: #288a21;
+    .container-fluid {
+      background: #1f3559;
+      padding-top: 50px ;
+      @media  (min-width: 728px) {
+        
+        position: relative; // Ensure proper positioning
+      }
+  
+      .contact-content {
+        padding: 50px;
+        border-radius: 10px;
+      }
+
+      @media  (min-width: 728px) {
+        
+        // position: relative; // Ensure proper positioning
+        .card{
+          position: absolute;
+          bottom: -5px;
+          
+        }
+      }
+      .btn-success {
+        background-color: #288a21;
+        border: none;
+        &:hover {
+          background-color: #1f6b18;
+        }
+      }
+  
+      // Move form box outside the container
+      .form-box {
+        position: relative;
+        top: -50px; // Move it up
+        background: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        border-radius: 10px;
+      }
+    }
+  }
+  

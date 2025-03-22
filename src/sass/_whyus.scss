@@ -1,0 +1,46 @@
+.why-us {
+    background-color: #f8f9fa; // Light background
+    padding: 50px 0;
+  
+    .section-tag {
+      color: #6ab04c;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #222;
+    }
+  
+    .section-text {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #555;
+    }
+  
+    ul {
+      padding: 0;
+      list-style: none;
+  
+      li {
+        font-size: 1rem;
+        color: #333;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+  
+        i {
+          margin-right: 10px;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  
+    img {
+      border-radius: 10px;
+    }
+  }
+  

@@ -1,9 +1,10 @@
 import React from 'react';
+// import { BiPlayCircle } from "react-icons/bi";
 // import './HeroSection.scss';
 
 export default function HeroSection() {
   return (
-    <section className="hero-section d-flex align-items-center">
+    <section className="hero-section d-flex align-items-center ">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 text-white">
@@ -17,11 +18,11 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="play-button">
+      {/* <div className="play-button">
         <a href="#" className="play-icon">
-          <i className="bi bi-play-circle"></i>
+          <BiPlayCircle  color="white" />
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }

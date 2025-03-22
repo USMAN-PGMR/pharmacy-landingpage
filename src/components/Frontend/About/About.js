@@ -5,7 +5,7 @@ import { FaCapsules, FaHeartbeat } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="about-section container py-5">
+    <section className="about-section container py-5 ">
       <div className="row align-items-center">
         <div className="col-lg-6 position-relative">
           <img src='https://demo.moxcreative.com/medipharma/wp-content/uploads/sites/74/2021/10/pretty-blond-female-pharmacist-and-her-senior-colleague-in-whitecoats-800x533.jpg' alt="About Us" className="img-fluid rounded" />

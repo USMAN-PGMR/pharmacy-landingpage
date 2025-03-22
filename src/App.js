@@ -8,6 +8,9 @@ import About from './components/Frontend/About';
 import WhatOffer from './components/Frontend/WhatOffer/WhatOffer';
 import Promises from './components/Frontend/Promises/Promises';
 import Discount from './components/Frontend/Discount/Discount';
+import Whyus from './components/Frontend/Whyus/Whyus';
+import Contact from './components/Frontend/Contact/Contact';
+import Footer from './components/Frontend/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
    <WhatOffer/>
    <Promises/>
    <Discount/>
+   <Whyus/>
+   <Contact/>
+   <Footer/>
     </>
   );
 }
